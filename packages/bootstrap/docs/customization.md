@@ -603,6 +603,16 @@ The following table lists the available variables for customizing the Bootstrap 
     </td>
 </tr>
 <tr>
+    <td>$overlay-dark</td>
+    <td>Color</td>
+    <td>rgba(0, 0, 0, .3)</td>
+    <td>rgba(0, 0, 0, .3)</td>
+</tr>
+<tr>
+    <td colspan="4" class="theme-variables-description-container"><div><b>Description</b><div class="theme-variables-description">The overlay dark color of the theme.</div></div>
+    </td>
+</tr>
+<tr>
     <td>$light</td>
     <td>Color</td>
     <td>$light</td>
@@ -610,6 +620,16 @@ The following table lists the available variables for customizing the Bootstrap 
 </tr>
 <tr>
     <td colspan="4" class="theme-variables-description-container"><div><b>Description</b><div class="theme-variables-description">The light color of the theme.</div></div>
+    </td>
+</tr>
+<tr>
+    <td>$overlay-light</td>
+    <td>Color</td>
+    <td>rgba(255, 255, 255, .3)</td>
+    <td>rgba(255, 255, 255, .3)</td>
+</tr>
+<tr>
+    <td colspan="4" class="theme-variables-description-container"><div><b>Description</b><div class="theme-variables-description">The overlay light color of the theme.</div></div>
     </td>
 </tr>
 <tr>
