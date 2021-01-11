@@ -47,7 +47,7 @@
                 <div class="k-overlay"></div>
                 <div class="k-widget k-window k-dialog" style="height:200px;width:300px;">
                     <kendo-dialog-titlebar class="k-window-titlebar k-dialog-titlebar k-header">
-                        <div class="k-window-title k-dialog-title">Custom dialog</div>
+                        <div class="k-window-title k-dialog-title" style="font-family: cursive;">Custom dialog</div>
                         <div class="k-window-actions k-dialog-actions">
                             <a class="k-button k-bare k-button-icon k-window-action k-dialog-action k-dialog-close">
                                 <span class="k-icon k-i-x"></span>
@@ -56,12 +56,13 @@
                     </kendo-dialog-titlebar>
                     <div class="k-content k-window-content k-dialog-content">
                         <app-custom-dialog>
-                            <div>Hello world - Dialog
+                            <div>The title font is changed to test fix for https://github.com/telerik/kendo-themes/issues/1984
                             </div>
                         </app-custom-dialog>
                     </div>
                 </div>
             </kendo-dialog>
+
         </app-custom-window>
     </div>
 </kendo-window>
