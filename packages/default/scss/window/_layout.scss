@@ -41,7 +41,7 @@
     .k-window-titlebar {
         @include use-background-clip();
         @include border-top-radius( $window-border-radius );
-        padding: $window-titlebar-padding-y $window-titlebar-padding-x;
+        padding: 0 $window-titlebar-padding-x;
         border-width: $window-titlebar-border-width;
         border-style: $window-titlebar-border-style;
         white-space: nowrap;
@@ -58,6 +58,7 @@
     // Title bar title text
     .k-window-title {
         margin: 0;
+        padding: $window-titlebar-padding-y 0;
         font-size: $window-title-font-size;
         line-height: $window-title-line-height;
         text-overflow: ellipsis;
